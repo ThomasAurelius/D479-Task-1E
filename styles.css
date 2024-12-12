@@ -1,0 +1,318 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+   text-decoration: none;
+}
+
+a {
+   color: black;
+}
+
+nav {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 80px;
+   font-size: 1.5rem;
+   background-color: rgb(237, 233, 247);
+}
+
+nav ul {
+   display: flex; 
+   gap: 2rem;
+}
+
+.active {
+   text-decoration: underline;
+   font-weight: 700;
+   color: rgb(6, 6, 161);
+}
+
+.hero {
+   background-image: url('/kazuo-ota-DAjg75Lzt0Q-unsplash.jpg');
+   background-position: center;
+   background-size: cover;
+   width: 95vw;
+   height: 50vh;
+   margin: 0 auto;
+   position: relative;
+   
+}
+
+.herotext {
+   height: 45vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+}
+
+small {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(245, 220, 224);
+}
+
+.herotext h1 {
+   font-size: 5rem;
+}
+
+main {
+   background-color: rgb(245, 220, 224);
+}
+
+
+.mainbody {
+   padding: 2rem;
+   margin: 0 auto;
+   font-size: 1.1rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 3rem;
+   background-color: rgb(245, 220, 224);
+   line-height: 1.75rem;
+}
+
+.mainimg img {
+   width: 45vw;
+   max-width: 600px;
+   background-color: rgb(245, 220, 224);
+   border: 1px solid black;
+}
+
+footer {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   gap: 10rem;
+   background-color: rgb(178, 246, 246);
+   padding-block: 50px;
+}
+
+.footer {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: .5rem;
+}
+
+.footersocial {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+}
+
+.footersocial img {
+   width: 50px;
+}
+
+main {
+   min-height: 75vh;
+}
+
+footer li {
+   padding: 3px;
+}
+
+.diningbody {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 3rem;
+   padding-block: 30px;
+   background-color: rgb(245, 220, 224);
+}
+
+.dining {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.dining p {
+   max-width: 400px;
+   padding-bottom: 30px;
+}
+
+.dining img {
+   width: 35vw;
+}
+
+.grocery {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.grocery p {
+   max-width: 400px;
+   padding-bottom: 30px;
+}
+
+.grocery img {
+   width: 35vw;
+}
+
+.cards {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(245, 220, 224);
+   gap: 5rem;
+   padding-block: 30px;
+   width: 1000px;
+   flex-wrap: wrap;
+   margin: 0 auto;
+}
+
+.card {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+   
+   border-radius: 5px;
+   background-color: whitesmoke;
+   gap: .35rem;
+   
+}
+
+.card small {
+   background-color: whitesmoke;
+}
+
+.card img {
+   width: 400px;
+   height: 300px;
+}
+
+.card button {
+   padding: 10px 20px;
+   font-weight: 700;
+   border-radius: 10px;
+}
+
+.lodgingmain {
+   min-height: 55vh;
+   padding-top: 20px;
+   text-align: center;
+   background-color: rgb(245, 220, 224);
+}
+
+.lodgingheader img {
+   width: 100vw;
+}
+
+.lodgingmain p {
+   text-align: center;
+   margin: 20px auto;
+   max-width: 800px;
+}
+
+.entertainmentmain {
+   text-align: center;
+   background-color: rgb(245, 220, 224);
+   padding-top: 20px;
+}
+
+.entertainmentheader {
+   background-color: rgb(245, 220, 224);
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.entertainmentheader img {
+   width: 400px;
+}
+.entertainmentheader p {
+   max-width: 400px;
+   margin: 20px auto;
+   line-height: 1.5;
+}
+
+.sightseeingmain {
+   text-align: center;
+   background-color: rgb(245, 220, 224);
+   padding-top: 20px;
+}
+
+.sightseeingheader {
+   background-color: rgb(245, 220, 224);
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.sightseeingheader img {
+   width: 400px;
+}
+
+.sightseeingheader p {
+   max-width: 400px;
+   margin: 20px auto;
+   line-height: 1.5;
+}
+
+.transportationmain {
+   background-color: rgb(245, 220, 224);
+   text-align: center;
+   margin: 0 auto;
+   padding-top: 20px;
+}
+.transportationmain p {
+   max-width: 800px;
+   padding-bottom: 20px;
+   margin: 20px auto 0 auto;
+}
+
+.transportationheader img {
+   max-width: 80vw;
+}
+
+.faqmain {
+   background-color: rgb(245, 220, 224);
+   
+   margin: 0 auto;
+}
+.faqmain li {
+   padding-left: 100px;
+   list-style-type: disc;
+   line-height: 1.5;
+}
+
+.faqmain ul {
+   padding-bottom: 20px;
+}
+
+.faqmain h2 {
+   text-align: center;
+   padding-block: 20px;
+}
+
+.faqmain img {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   max-width: 80vw;
+}
+
+@media screen and (max-width: 1080px) {
+   .cards   {
+      width: 600px;
+   }
+}
